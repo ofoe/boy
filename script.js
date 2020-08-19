@@ -3,38 +3,17 @@
 ***********************************/
 var nav = document.getElementById('nav');
 var dropdown = document.getElementById('dropdown');
-// var logoImage = document.getElementById('logoImage');
-// var navlink1 = document.getElementById('navlink1');
-// var navlink2 = document.getElementById('navlink2');
-// var navlink3 = document.getElementById('navlink3');
-// var navlink4 = document.getElementById('navlink4');
-// var navlink5 = document.getElementById('navlink5');
-// var navlink6 = document.getElementById('navlink6');
 
 window.onscroll = function(){
   if(window.pageYOffset > 450){
     nav.style.background = "white";
     nav.style.boxShadow = "0px 1px 10px #d3d3d3";
-    dropdown.style.boxShadow = "0px 1px 10px #d3d3d3"
-    // logoImage.src = "images/logoBlack.png";
-    // navlink1.style.color = "black";
-    // navlink2.style.color = "black";
-    // navlink3.style.color = "black";
-    // navlink4.style.color = "black";
-    // navlink5.style.color = "black";
-    // navlink6.style.color = "black";
+    dropdown.style.boxShadow = "none";
   }
   else{
     nav.style.backgroundColor = "transparent";
     nav.style.boxShadow = "none";
     dropdown.style.boxShadow = "none";
-    // logoImage.src = "images/logoWhite.png";
-    // navlink1.style.color = "white";
-    // navlink2.style.color = "white";
-    // navlink3.style.color = "white";
-    // navlink4.style.color = "white";
-    // navlink5.style.color = "white";
-    // navlink6.style.color = "white";
   }
 }
 
