@@ -45,6 +45,9 @@ body {
 .left li:hover {
   cursor: pointer;
 }
+.left li a:first-child:hover{
+  text-decoration: none;
+}
 .left li a {
   text-transform: uppercase;
   color: #000000;
@@ -76,7 +79,16 @@ body {
 .left .dropdown li:hover a {
   text-decoration: none;
 }
-
+.accessories{
+  position: absolute;
+  top: 50%;
+  left: 101%;
+  background-color: white;
+  display: none;
+}
+.left .dropdown li:last-child:hover .accessories{
+  display: block;
+}
 /****************
     logo
 ****************/
@@ -106,15 +118,21 @@ body {
              HERO
 **********************************************/
 .hero {
-  background-image: url("images/588999.jpg");
+  /* background-image: url("images/588999.jpg");
+  background-repeat: no-repeat; */
   height: 90vh;
 }
-
+.hero video{
+  width: 101%;
+  /* height: 90vh; */
+  background-position: center;
+  margin-left: -10px;
+}
 /**********************************************
              STORY
 **********************************************/
 .story {
-  margin-top: 100px;
+  margin-top: 400px;
   height: 500px;
   position: relative;
   display: flex;
@@ -375,7 +393,16 @@ q {
   align-items: center;
   margin: 10px;
   position: relative;
+  cursor: pointer;
 }
+.footer .social-icons:hover{
+  border: none;
+  background-color: #4e4e4e;
+}
+.footer .social-icons:hover a{
+  color: white;
+}
+
 .footer .social-icons a {
   align-items: center;
   position: absolute;
@@ -427,7 +454,7 @@ q {
 
 
 /**********************************************
-            Our Story
+            Our Story page
 **********************************************/
 .storyclass{
   margin-top: 120px !important;
@@ -485,3 +512,78 @@ q {
   height: 235px;
   width: 235px;
 }
+
+/**********************************************
+            T-Shirt page
+**********************************************/
+.tshirtpage{
+  margin-top: 100px;
+}
+.tshirtpage h3{
+  text-align: center;
+}
+.tshirt{
+  margin-top: 30px;
+  height: 600px;
+  display: flex;
+}
+.bigshirt{
+  height: 500px;
+  width: 40%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bigshirt img{
+  height: 500px;
+  width: 500px;
+  border: 1px solid #bbb;
+}
+.smallshirt{
+  height: 500px;
+  width: 55%;
+  /* margin: 20px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.smallshirt .small1{
+  margin: 15px;
+  display: flex;
+  flex-basis: 25%;
+  height: 150px;
+  width: 150px;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.smallshirt .small1 img{
+  height: inherit;
+  width: inherit;
+  margin-left: 13px;
+}
+.smallshirt .small1 img:hover, 
+.smallshirt .small1 p:hover{
+  cursor: pointer;
+}
+
+.smallshirt .small1 p{
+  background-color: white;
+  padding: 5px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 38%;
+}
+
+
+
+
+
+
+
+
+
+
+
