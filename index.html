@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://use.fontawesome.com/3f30c0dd8f.js"></script>
 </head>
 
 <body>
@@ -22,10 +24,18 @@
                     <li><a href="#" id="navlink1">
                             shop
                             <ul class="dropdown" id="dropdown">
-                                <li><a href="#">Tees</a></li>
-                                <li><a href="#">Hoodies</a></li>
-                                <li><a href="#">Bags</a></li>
-                                <li><a href="#">Accessories</a></li>
+                                <li><a href="tshirt.html">Tees</a></li>
+                                <li><a href="hoodie.html">Hoodies</a></li>
+                                <li><a href="backpack.html">Bags</a></li>
+                                <li><a href="">
+                                    Accessories
+                                    <ul class="accessories">
+                                        <li><a href="watch.html">Watches</a></li>
+                                        <li><a href="wallet.html">Wallets</a></li>
+                                        <li><a href="bracelet.html">Bracelets</a></li>
+                                        <li><a href="bottle.html">Bottles</a></li>
+                                    </ul>
+                                </a></li>
                             </ul>
                         </a></li>
                     <li><a href="lookbook.html" id="navlink2">Lookbook</a></li>
@@ -47,7 +57,9 @@
         Hero 
     ---------------------------->
     <div class="container-fluid hero">
-
+        <video autoplay loop muted>
+            <source src="images/bgvid.mp4" type="video/mp4"> 
+        </video>
     </div>
 
     <!----------------------------
@@ -77,56 +89,70 @@
         </div>
         <div class="row">
             <div class="col m-2 collection">
-                <img class="image" src="images/tshirt.jpg" alt="">
-                <div class="middle">
-                    <div class="text">John Doe</div>
-                </div>
+                <a href="tshirt.html">
+                    <img class="image" src="images/tshirt.jpg" alt="">
+                    <div class="middle">
+                        <div class="text">T-Shirt</div>
+                    </div>
+                </a>
             </div>
             <div class="col m-2 collection">
-                <img class="image"
-                    src="images/watch2.jpg"
-                    alt="">
-                <div class="middle">
-                    <div class="text">John Doe</div>
-                </div>
+                <a href="watch.html">
+                    <img class="image" src="images/watch2.jpg" alt="">
+                    <div class="middle">
+                        <div class="text">Watch</div>
+                    </div>
+                </a>
             </div>
             <div class="col m-2 collection">
-                <img class="image" src="images/backpack2.png" alt="">
-                <div class="middle">
-                    <div class="text">John Doe</div>
-                </div>
+                <a href="backpack.html">
+                    <img class="image" src="images/backpack2.png" alt="">
+                    <div class="middle">
+                        <div class="text">Backpack</div>
+                    </div>
+                </a>
             </div>
             <div class="col m-2 collection">
-                <img class="image" src="images/bottle2.jpg" alt="">
-                <div class="middle">
-                    <div class="text">John Doe</div>
-                </div>
+                <a href="bottle.html">
+                    <img class="image" src="images/bottle2.jpg" alt="">
+                    <div class="middle">
+                        <div class="text">Water Bottle</div>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="row">
             <div class="col m-2 collection">
-                <img class="image" src="images/cap2.jpg" alt="">
-                <div class="middle">
-                    <div class="text">John Doe</div>
-                </div>
+                <a href="cap.html">
+                    <img class="image" src="images/cap2.jpg" alt="">
+                    <div class="middle">
+                        <div class="text">Cap</div>
+                    </div>
+                </a>
             </div>
             <div class="col m-2 collection">
-                <img class="image" src="images/hoodie.png" alt="">
-                <div class="middle">
-                    <div class="text">John Doe</div>
-                </div>
+                <a href="hoodie.html">
+                    <img class="image" src="images/hoodie.png" alt="">
+                    <div class="middle">
+                        <div class="text">Hoodies</div>
+                    </div>
+                </a>
             </div>
             <div class="col m-2 collection">
-                <img class="image" src="images/bracelet2.jpg" alt="">
-                <div class="middle">
-                    <div class="text">John Doe</div>
-                </div>
+                <a href="bracelet.html">
+                    <img class="image" src="images/bracelet2.jpg" alt="">
+                    <div class="middle">
+                        <div class="text">Bracelet</div>
+                    </div>
+                </a>
             </div>
             <div class="col m-2 collection">
-                <img class="image" src="images/wallet.jpg" alt="">
-                <div class="middle">
-                    <div class="text">John Doe</div>
-                </div>
+                <a href="wallet.html">
+                    <img class="image" src="images/wallet.jpg" alt="">
+                    <div class="middle">
+                        <div class="text">Wallet</div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -141,30 +167,30 @@
         <div class="row">
             <div class="owl-carousel owl-theme">
                 <div class="item col m-2 collection">
-                    <img src="images/backpack2.png" alt="">
+                    <a href="backpack.html"><img src="images/backpack2.png" alt=""></a>
                 </div>
                 <div class="item col m-2 collection">
-                    <img src="images/hoodie.png"
-                        alt="">
+                    <a href="hoodie.html"><img src="images/hoodie.png"
+                        alt=""></a>
                 </div>
                 <div class="item col m-2 collection">
-                    <img src="images/bottle2.jpg" alt="">
+                    <a href="bottle.html"><img src="images/bottle2.jpg" alt=""></a>
                 </div>
                 <div class="item col m-2 collection">
-                    <img src="images/tshirt.jpg" alt="">
+                    <a href="tshirt.html"><img src="images/tshirt.jpg" alt=""></a>
                 </div>
                 <div class="item col m-2 collection">
-                    <img src="images/watch2.jpg" alt="">
+                    <a href="watch.html"><img src="images/watch2.jpg" alt=""></a>
                 </div>
                 <div class="item col m-2 collection">
-                    <img src="images/bracelet2.jpg"
-                        alt="">
+                    <a href="bracelet.html"><img src="images/bracelet2.jpg"
+                        alt=""></a>
                 </div>
                 <div class="item col m-2 collection">
-                    <img src="images/cap2.jpg" alt="">
+                    <a href="cap.html"><img src="images/cap2.jpg" alt=""></a>
                 </div>
                 <div class="item col m-2 collection">
-                    <img src="images/wallet.jpg" alt="">
+                    <a href="wallet.html"><img src="images/wallet.jpg" alt=""></a>
                 </div>
 
             </div>
@@ -273,6 +299,7 @@
     <script src="owl.carousel.min.js"></script>
     <script src="bootstrap/js/bootsrap.min.js"></script>
     <script src="fontawesome/js/all.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
 
