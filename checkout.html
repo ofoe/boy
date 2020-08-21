@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burden Of Youth</title>
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+
+<body>
+    <!----------------------------
+        navigation 
+    ---------------------------->
+    <div class="container-fluid naav">
+        <div class="container">
+            <div class="navigation">
+                <ul class="left">
+                    <li><a href="">
+                            shop
+                            <ul class="dropdown" id="dropdown">
+                                <li><a href="tshirt.html">Tees</a></li>
+                                <li><a href="hoodie.html">Hoodies</a></li>
+                                <li><a href="backpack.html">Bags</a></li>
+                                <li><a href="">
+                                        Accessories
+                                        <ul class="accessories">
+                                            <li><a href="watch.html">Watches</a></li>
+                                            <li><a href="wallet.html">Wallets</a></li>
+                                            <li><a href="bracelet.html">Bracelets</a></li>
+                                            <li><a href="bottle.html">Bottles</a></li>
+                                        </ul>
+                                    </a></li>
+                            </ul>
+                        </a></li>
+                    <li><a href="lookbook.html">Lookbook</a></li>
+                    <li><a href="story.html">Our Story</a></li>
+                </ul>
+                <div class="logo">
+                    <a href="index.html"><img src="images/logoBlack.png" alt="logo" id="logoImage"></a>
+                </div>
+                <ul class="right">
+                    <li><a href="#"><i class="fas fa-search"></i></a></li>
+                    <li><a href="#">GHC</a></li>
+                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------
+        Checkout Page 
+    ---------------------------->
+    <div class="container checkoutpage">
+        <h3>Checkout</h3>
+        <div class="checkout">
+            <!-- left -->
+            <div class="checkoutleft">
+                <h4>Billing Details</h4>
+                <hr>
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">First name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Last name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Company name(optional)</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Country / Region</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Ghana</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Street</label>
+                        <input type="text" class="form-control" placeholder="Accra">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Apartment, suite, unit, etc.(optional)">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Town / City</label>
+                        <input type="text" class="form-control" value="tema">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Region</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Greater Accra</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Postcode / ZIP (optional)</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Phone</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Create an account?</label>
+                    </div>
+                </form>
+            </div>
+
+            <!-- right -->
+            <div class="checkoutright">
+                <h4>Your Order</h4>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <h5>Product</h5>
+                        <ul>
+                            <li>Blue T-Shirt</li>
+                            <hr>
+                            <li>Subtotal</li>
+                            <li>Shipping</li>
+                            <li>Total</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h5>Subtotal</h5>
+                        <ul>
+                            <li>$100</li>
+                            <hr>
+                            <li>$100</li>
+                            <li>Free Shipping</li>
+                            <li>$100</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="form-check radioOne">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                            value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            Direct bank transfer
+                        </label>
+                    </div>
+                    <p>Make your payment directly into our bank account. Please use your Order ID as the payment
+                        reference. Your order will not be shipped until the funds have cleared in our account.</p>
+                </div>
+                <div>
+                    <div class="form-check radioOne">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                            value="option1">
+                        <label class="form-check-label" for="exampleRadios1">
+                            Cash on delivery
+                        </label>
+                    </div>
+                    <p>Make your payment directly into our bank account. Please use your Order ID as the payment
+                        reference. Your order will not be shipped until the funds have cleared in our account.</p>
+                </div>
+                <button type="button">Place order</button>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------
+        footer
+    ---------------------------->
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row mt-3">
+                <div class="footer-logo">
+                    <a href="#"><img src="images/logoAsh.png" alt="logo"></a>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="social">
+                    <li class="social-icons"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="social-icons"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="social-icons"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li class="social-icons"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="row mb-3">
+                <ul class="footer-list">
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Lookbook</a></li>
+                    <li><a href="#">Our Story</a> </li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Shipping Policy</a> </li>
+                    <li><a href="#">Privacy Policy</a> </li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Subscribe to Our Newsletter</a> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p>2020 Burden Of Youth. All Right Reserved</p>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <div class="col payment-icon">
+                                <img src="images/visa.jpg" alt="">
+                            </div>
+                            <div class="col payment-icon">
+                                <img src="images/gpay.jpg" alt="">
+                            </div>
+                            <div class="col payment-icon">
+                                <img src="images/masterCard.jpg" alt="">
+                            </div>
+                            <div class="col payment-icon">
+                                <img src="images/momo.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <p>Crafted by <span>Burden Of Youth</span></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="bootstrap/js/bootsrap.min.js"></script>
+    <script src="fontawesome/js/all.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
