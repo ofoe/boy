@@ -118,6 +118,56 @@ body {
   font-family: less, sans-serif;
   font-size: 0.8em;
 }
+/**********************************************
+             Sidepanel
+**********************************************/
+.sidepanel{
+  position: fixed;
+  background-color: white;
+  /* opacity: 0.9; */
+  height: 100%;
+  width: 300px;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s; 
+  /* display: none; */
+  overflow-x: hidden;
+  box-shadow:0 0 0 10000px rgba(0,0,0,.50);
+}
+
+.sidepanel li:first-child{
+  margin: 20px 0px;
+}
+
+.sidepanel a {
+  font-family: Less, sans-serif;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  /* font-size: 25px; */
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+.sidepanel a:hover:not(.closebtn) {
+  color: #646464;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sidepanel .closebtn:hover{
+  font-size: 38px;
+  color: #4e4e4e;
+  text-decoration: none;
+}
 
 /**********************************************
              HERO
@@ -133,6 +183,16 @@ body {
   background-position: center;
   margin-left: -10px;
 }
+/* .hero::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999;
+  background: rgba(0,0,0,0.6);
+} */
 /**********************************************
              STORY
 **********************************************/
